@@ -1,0 +1,18 @@
+[package]
+name = "Web-Key"
+version = "0.1.0"
+authors = ["ziselive <88380995@qq.com>"]
+
+[dependencies]
+sapper = "*"
+sapper_std = "*"
+log = "0.3.7"
+env_logger = "0.4.2"
+serde="1.0.7"
+serde_json="1.0.2"
+serde_derive="1.0.8"
+diesel = { version = "0.16.0", features = ["postgres"] }
+diesel_codegen = { version = "0.16.0", features = ["postgres"] }
+dotenv = "0.10.1"
+chrono = "0.4"
+typemap = "*"
