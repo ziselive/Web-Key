@@ -1,4 +1,4 @@
-CREATE TABLE blogs (
+CREATE TABLE webarticle (
     id bigserial primary key,
     title varchar NOT NULL,
     content varchar NOT NULL
